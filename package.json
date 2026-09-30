@@ -1,0 +1,14 @@
+{
+  "name": "motorbikes-r-us",
+  "version": "1.0.0",
+  "description": "Motorbikes R US website",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^5.1.0"
+  }
+}
