@@ -8,7 +8,7 @@ app.set("view engine", "ejs");
 app.set("views", path.join(__dirname, "views"));
 
 // Static files (CSS/JS/images)
-app.use(express.static(__dirname));
+app.use(express.static(__dirname + '/public'));
 
 // Route for home page
 app.get("/", (req, res) => {
