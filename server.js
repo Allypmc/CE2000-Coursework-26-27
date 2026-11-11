@@ -12,7 +12,7 @@ app.use(express.static(__dirname + '/public'));
 
 // Route for home page
 app.get("/", (req, res) => {
-  res.render("index");
+  res.render("pages/index");
 });
 
 // Start server
